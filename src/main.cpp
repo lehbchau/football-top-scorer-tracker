@@ -23,7 +23,7 @@ namespace pj = Poco::JSON;
 /// <param name="manager">object to store and write leagues' data</param>
 /// <param name="leagueName">name of league to fetch for data</param>
 /// <param name="leagueEndpoint">endpoint of league</param>
-/// <returns></returns>
+/// <returns>a league object containing top scorers' data</returns>
 League fetchScorers(ScorersLeagueManager& manager, const std::string& leagueName, 
     const std::string& leagueEndpoint, const char* apiKey) {
 
