@@ -1,21 +1,21 @@
 # Football Top Scorer Tracker
 
 ## Description
-**Football Top Scorer Tracker** is a C++ application designed to periodically fetch and update the latest statistics of top scorers across various European football leagues. By utilizing a RESTful API and leveraging multi-threading, it provides valuable insights into top scorers, including their nationality, goals scored, and matches played for the 2024-2025 season. The application generates outputs in CSV format for easy analysis and sharing of data. 
+**Football Top Scorer Tracker** is a C++ application designed to periodically fetch and update the latest statistics of top scorers across various European football leagues. By utilizing a **RESTful API** and leveraging **multi-threading**, it provides valuable insights into top scorers, including their nationality, goals scored, and matches played for the 2024-2025 season. The application generates outputs in **CSV format** for easy analysis and sharing of data. 
 
 ## Key Features
-- Fetches top scorer data from multiple football leagues (currently including the Premier League, La Liga, and Bundesliga)
-- Multi-threaded design for efficient data retrieval
-- Configurable API settings for flexibility
-- Outputs data in CSV format for easy sharing and analysis in spreadsheet applications 
+- Fetches top scorer data from multiple football leagues (currently including the **Premier League, La Liga, and Bundesliga**)
+- **Multi-threaded** design for efficient data retrieval
+- **Configurable API settings** for flexibility
+- Outputs data in **CSV format** for easy sharing and analysis in spreadsheet applications 
 - Periodically updates player statistics
 
 ## Technologies Used
-- C++
+- **C++**
 - Libraries:
-  - Poco C++ Libraries for HTTP requests and JSON parsing
-  - Standard C++ Libraries for data structure and multi-threading (used in building thread pool)
-- API Integration
+  - **Poco C++ Libraries** for **HTTP requests** and **JSON parsing**
+  - **Standard C++ Libraries** for **data structure** and **multi-threading** (used in building custom **thread pool**)
+- **API Integration**
 
 ## Getting Started
 
